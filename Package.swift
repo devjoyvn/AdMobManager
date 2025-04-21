@@ -19,7 +19,7 @@ let package = Package(
     .package(url: "https://github.com/firebase/firebase-ios-sdk", revision: "11.9.0"),
     .package(url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework", .exact("6.15.3")),
     .package(url: "https://github.com/AppsFlyerSDK/appsflyer-apple-purchase-connector", .exact("6.15.3")),
-    .package(url: "https://github.com/AppsFlyerSDK/adrevenue-apple-sdk.git", .exact("6.14.3")),
+    .package(url: "https://github.com/AppsFlyerSDK/adrevenue-apple-sdk.git", .from("6.15.0")),
     .package(url: "https://github.com/Kitura/Swift-JWT", revision: "3.6.201")
   ],
   targets: [
