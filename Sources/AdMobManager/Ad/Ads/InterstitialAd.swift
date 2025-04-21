@@ -232,11 +232,11 @@ extension InterstitialAd {
           //   revenueCurrency: adValue.currencyCode,
           //   additionalParameters: adRevenueParams)
           
-          AppsFlyerLib.shared().logEvent("ad_impression",
-                                         withValues: [
-                                          AFEventParamRevenue: adValue.value,
-                                          AFEventParamCurrency: adValue.currencyCode
-                                         ])
+          // AppsFlyerLib.shared().logEvent("ad_impression",
+          //                                withValues: [
+          //                                 AFEventParamRevenue: adValue.value,
+          //                                 AFEventParamCurrency: adValue.currencyCode
+          //                                ])
         }
       }
     }
