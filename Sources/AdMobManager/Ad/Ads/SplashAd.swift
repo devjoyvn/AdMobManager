@@ -7,7 +7,7 @@
 
 import UIKit
 import GoogleMobileAds
-import AppsFlyerAdRevenue
+// import AppsFlyerAdRevenue
 import AppsFlyerLib
 
 class SplashAd: NSObject, AdProtocol {
@@ -192,12 +192,12 @@ extension SplashAd {
             kAppsFlyerAdRevenueAdType: "Interstitial_Splash"
           ]
           
-          AppsFlyerAdRevenue.shared().logAdRevenue(
-            monetizationNetwork: "admob",
-            mediationNetwork: MediationNetworkType.googleAdMob,
-            eventRevenue: adValue.value,
-            revenueCurrency: adValue.currencyCode,
-            additionalParameters: adRevenueParams)
+          // AppsFlyerAdRevenue.shared().logAdRevenue(
+          //   monetizationNetwork: "admob",
+          //   mediationNetwork: MediationNetworkType.googleAdMob,
+          //   eventRevenue: adValue.value,
+          //   revenueCurrency: adValue.currencyCode,
+          //   additionalParameters: adRevenueParams)
           
           AppsFlyerLib.shared().logEvent("ad_impression",
                                          withValues: [

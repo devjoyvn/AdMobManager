@@ -12,7 +12,7 @@ import FirebaseAnalytics
 import AdSupport
 import PurchaseConnector
 import StoreKit
-import AppsFlyerAdRevenue
+// import AppsFlyerAdRevenue
 
 /// Supports MMP AppsFlyer and ATT Tracking integration.
 /// ```
@@ -44,7 +44,7 @@ public class TrackingSDK: NSObject {
     
     
     
-    AppsFlyerAdRevenue.start()
+    // AppsFlyerAdRevenue.start()
     
     if #available(iOS 14, *),
        ATTrackingManager.trackingAuthorizationStatus == .authorized {

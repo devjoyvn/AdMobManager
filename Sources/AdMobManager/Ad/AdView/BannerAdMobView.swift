@@ -7,7 +7,7 @@
 
 import UIKit
 import GoogleMobileAds
-import AppsFlyerAdRevenue
+// import AppsFlyerAdRevenue
 import AppsFlyerLib
 
 /// This class returns a UIView displaying BannerAd.
@@ -159,12 +159,12 @@ extension BannerAdMobView: GADBannerViewDelegate {
         kAppsFlyerAdRevenueAdType: "Banner"
       ]
       
-      AppsFlyerAdRevenue.shared().logAdRevenue(
-        monetizationNetwork: "admob",
-        mediationNetwork: MediationNetworkType.googleAdMob,
-        eventRevenue: adValue.value,
-        revenueCurrency: adValue.currencyCode,
-        additionalParameters: adRevenueParams)
+      // AppsFlyerAdRevenue.shared().logAdRevenue(
+      //   monetizationNetwork: "admob",
+      //   mediationNetwork: MediationNetworkType.googleAdMob,
+      //   eventRevenue: adValue.value,
+      //   revenueCurrency: adValue.currencyCode,
+      //   additionalParameters: adRevenueParams)
       
       AppsFlyerLib.shared().logEvent("ad_impression",
                                      withValues: [

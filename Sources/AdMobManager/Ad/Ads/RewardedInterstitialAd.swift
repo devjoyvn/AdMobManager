@@ -7,7 +7,7 @@
 
 import UIKit
 import GoogleMobileAds
-import AppsFlyerAdRevenue
+// import AppsFlyerAdRevenue
 import AppsFlyerLib
 
 class RewardedInterstitialAd: NSObject, AdProtocol {
@@ -208,12 +208,12 @@ extension RewardedInterstitialAd {
             kAppsFlyerAdRevenueAdType: "RewardedInterstitial"
           ]
           
-          AppsFlyerAdRevenue.shared().logAdRevenue(
-            monetizationNetwork: "admob",
-            mediationNetwork: MediationNetworkType.googleAdMob,
-            eventRevenue: adValue.value,
-            revenueCurrency: adValue.currencyCode,
-            additionalParameters: adRevenueParams)
+          // AppsFlyerAdRevenue.shared().logAdRevenue(
+          //   monetizationNetwork: "admob",
+          //   mediationNetwork: MediationNetworkType.googleAdMob,
+          //   eventRevenue: adValue.value,
+          //   revenueCurrency: adValue.currencyCode,
+          //   additionalParameters: adRevenueParams)
           
           AppsFlyerLib.shared().logEvent("ad_impression",
                                          withValues: [
