@@ -8,7 +8,7 @@
 import UIKit
 import GoogleMobileAds
 // import AppsFlyerAdRevenue
-import AppsFlyerLib
+// import AppsFlyerLib
 
 /// This class returns a UIView displaying BannerAd.
 /// ```

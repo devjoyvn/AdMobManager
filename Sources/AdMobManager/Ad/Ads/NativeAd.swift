@@ -8,7 +8,7 @@
 import UIKit
 import GoogleMobileAds
 // import AppsFlyerAdRevenue
-import AppsFlyerLib
+// import AppsFlyerLib
 
 class NativeAd: NSObject {
   private var nativeAd: GADNativeAd?

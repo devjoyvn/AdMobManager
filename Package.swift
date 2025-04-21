@@ -17,8 +17,8 @@ let package = Package(
     // .package(url: /* package url */, from: "1.0.0"),
     .package(name: "GoogleMobileAds", url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", revision: "11.4.0"),
     .package(url: "https://github.com/firebase/firebase-ios-sdk", revision: "11.9.0"),
-    .package(url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework", revision: "6.15.3"),
-    .package(url: "https://github.com/AppsFlyerSDK/appsflyer-apple-purchase-connector", revision: "6.15.3"),
+    // .package(url: "https://github.com/AppsFlyerSDK/AppsFlyerFramework", revision: "6.15.3"),
+    // .package(url: "https://github.com/AppsFlyerSDK/appsflyer-apple-purchase-connector", revision: "6.15.3"),
     // .package(url: "https://github.com/AppsFlyerSDK/adrevenue-apple-sdk.git", revision: "6.14.3"),
     .package(url: "https://github.com/Kitura/Swift-JWT", revision: "3.6.201")
   ],
@@ -32,8 +32,8 @@ let package = Package(
         .product(name: "FirebaseRemoteConfig", package: "firebase-ios-sdk"),
         .product(name: "FirebaseAnalytics", package: "firebase-ios-sdk"),
         .product(name: "FirebaseDatabase", package: "firebase-ios-sdk"),
-        .product(name: "AppsFlyerLib", package: "AppsFlyerFramework"),
-        .product(name: "PurchaseConnector", package: "appsflyer-apple-purchase-connector"),
+        // .product(name: "AppsFlyerLib", package: "AppsFlyerFramework"),
+        // .product(name: "PurchaseConnector", package: "appsflyer-apple-purchase-connector"),
         // .product(name: "AppsFlyerAdRevenue", package: "adrevenue-apple-sdk"),
         .product(name: "SwiftJWT", package: "swift-jwt")
       ]

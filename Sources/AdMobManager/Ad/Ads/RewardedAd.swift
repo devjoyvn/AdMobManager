@@ -8,7 +8,7 @@
 import UIKit
 import GoogleMobileAds
 // import AppsFlyerAdRevenue
-import AppsFlyerLib
+// import AppsFlyerLib
 
 class RewardedAd: NSObject, AdProtocol {
   private var rewardedAd: GADRewardedAd?
